@@ -1,13 +1,212 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #221f1f;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* h2,
+h4,
+footer {
+  color: #f5f5f1;
+}
+
+.icons {
+  margin-left: 0.8em;
+  margin-right: 0.8em;
+  font-size: 1.2em;
+  color: #f5f5f1;
+}
+
+.navbar-nav {
+  font-size: 90%;
+}
+
+#kids {
+  color: #f5f5f1;
+  font-size: 0.8em;
+}
+
+.footer-icon {
+  color: #838383;
+}
+
+.footer-links {
+  font-size: 0.8em;
+}
+
+.footer-links p {
+  margin-bottom: 0.3em;
+  color: #838383;
+}
+
+.footer-links a {
+  color: #838383;
+  text-decoration: none;
+}
+
+.footer-button {
+  color: #838383;
+  border-color: #838383;
+}
+
+.copyright {
+  color: #838383;
+  font-size: 0.6em;
+}
+
+.col img {
+  transition: transform 0.2s;
+}
+
+.col img:hover {
+  transform: scale(1.1);
+} */
+
+body {
+  background: #221f1f;
+  overflow-x: hidden;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 15px;
+}
+
+.right-nav {
+  position: absolute;
+  right: 80px;
+}
+
+.nav-link {
+  color: gray !important;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+.navbar-icon {
+  color: gray;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar-icon:hover {
+  color: white;
+}
+
+.header-text {
+  color: white;
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.dropdown-menu {
+  background-color: black;
+}
+
+.dropdown-menu a {
+  font-size: 17px;
+}
+
+.dropdown-item {
+  color: white !important;
+}
+
+.header-main {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+  width: 95%;
+  display: flex;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.header-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.genres-button {
+  margin-left: 30px;
+  background-color: transparent;
+  border: white 1px solid;
+  transition: 0.3s ease-in-out;
+}
+
+.genres-button:hover {
+  background-color: transparent;
+  border: gray 1px solid;
+}
+
+.movie-row {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.poster {
+  width: 10%;
+  height: auto;
+  object-fit: cover;
+  margin: 15px;
+  transition: 0.3s ease-in-out;
+}
+
+.poster:hover {
+  opacity: 1;
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+h2 {
+  color: white;
+  margin-left: 70px;
+}
+
+.footer-links {
+  text-align: left;
+  font-size: 0.8em;
+}
+
+.footer-links p {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: #838383;
+}
+
+.footer-links button {
+  color: #838383;
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.service-button {
+  color: #838383;
+  border-color: #838383;
+}
+
+.copyright {
+  color: #838383;
+  font-size: 0.6em;
 }
